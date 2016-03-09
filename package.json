@@ -1,8 +1,8 @@
 {
 	"name": "atom-keybindings",
 	"displayName": "Atom Keybindings",
-	"description": "Atom Keybindings",
-	"version": "1.0.0",
+	"description": "Port of Atom Keybindings",
+	"version": "1.0.1",
 	"publisher": "waderyan",
 	"engines": {
 		"vscode": "0.10.x"
