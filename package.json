@@ -1,0 +1,100 @@
+{
+	"name": "atom-keybindings",
+	"displayName": "Atom Keybindings",
+	"description": "Atom Keybindings",
+	"version": "1.0.0",
+	"publisher": "waderyan",
+	"engines": {
+		"vscode": "0.10.x"
+	},
+	"categories": [
+		"Other"
+	],
+    "icon": "keyboard.png",
+	"contributes": {
+		"keybindings": [
+        { 
+            "key": "ctrl+cmd+down",
+            "command": "editor.action.moveLinesDownAction",
+            "when": "editorTextFocus" 
+        },
+        { 
+            "key": "ctrl+cmd+up",                
+            "command": "editor.action.moveLinesUpAction",
+            "when": "editorTextFocus" 
+        },
+        { 
+            "key": "cmd+down",
+            "command": "editor.action.copyLinesDownAction",
+            "when": "editorTextFocus" 
+        },
+        {
+            "key": "cmd+up",
+            "command": "editor.action.copyLinesUpAction",
+            "when": "editorTextFocus" 
+        },
+        {
+            "key": "shift+cmd+d",
+            "command": "editor.action.deleteLines",
+            "when": "editorTextFocus"
+        },
+        { 
+            "key": "cmd+\\",
+            "command": "workbench.action.toggleSidebarVisibility"
+        },
+        { 
+            "key": "shift+cmd+s",
+            "command": "workbench.action.splitEditor"
+        },
+        {
+            "key": "shift+cmd+x",
+            "command": "workbench.action.closeActiveEditor"
+        },
+        {
+            "key": "shift+cmd+left",
+            "command": "workbench.action.focusLeftEditor"
+        },
+        {
+            "key": "shift+cmd+right",
+            "command": "workbench.action.focusRightEditor"
+        },
+        {
+            "key": "shift+cmd+b",
+            "command": "editor.debug.action.toggleBreakpoint",
+            "when": "editorTextFocus"
+        },
+        { 
+            "key": "shift+cmd+space",
+            "command": "workbench.action.showCommands"
+        },
+        { 
+        "key": "cmd+r",
+        "command": "workbench.action.debug.start",
+            "when": "!inDebugMode"
+        },
+        {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.debug.stop",
+            "when": "inDebugMode"
+        }
+    ]
+	},
+	"scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"vscode": "^0.11.0"
+	},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/waderyan/vscode-atom-keybindings"
+    },
+    "bugs": {
+        "url": "https://github.com/waderyan/vscode-atom-keybindings/issues",
+        "email": "wade.anderson@microsoft.com"
+    },
+    "galleryBanner": {
+        "color": "#0000FF",
+        "theme": "dark"
+    }
+}
