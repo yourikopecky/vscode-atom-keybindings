@@ -1,7 +1,7 @@
 {
 	"name": "atom-keybindings",
-	"displayName": "Atom Keybindings",
-	"description": "Port of Atom Keybindings",
+	"displayName": "Atom Keymap for macOS",
+	"description": "Atom Keybindings port for VS Code",
 	"version": "1.0.2",
 	"publisher": "ms-vscode",
 	"engines": {
