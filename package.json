@@ -13,6 +13,7 @@
     "keywords": [
         "keymap"
     ],
+    "preview": true,
     "icon": "keyboard.png",
 	"contributes": {
 		"keybindings": [
