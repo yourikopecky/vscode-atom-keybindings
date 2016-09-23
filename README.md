@@ -2,6 +2,8 @@
 
 Stuck on the habits you had while using Atom? Use this extension to get the keybindings for Atom in VS Code. 
 
+> Note: this extension is in preview mode. PRs to make this fully featured are much appreciated. 
+
 | macOS | Command | Supported | 
 | ----- | ------- | --------- | 
 | ctrl+cmd+down | Move Lines Down | Yes |
