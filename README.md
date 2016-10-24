@@ -1,31 +1,35 @@
-# Atom Key Bindings
+# Atom Keymap for VS Code
 
-Stuck on the habits you had while using Atom? Use this extension to get the keybindings for Atom in VS Code. 
+This extension ports popular Atom keyboard shortcuts to Visual Studio Code. After installing the extension and restarting VS Code your favorite keyboard shortcuts from Atom are now available. 
 
-> Note: this extension is in preview mode. PRs to make this fully featured are much appreciated. 
+## What keyboard shortcuts are included?
 
-| macOS | Command | Supported | 
-| ----- | ------- | --------- | 
-| ctrl+cmd+down | Move Lines Down | Yes |
-| ctrl+cmd+up | Move Lines Up | Yes | 
-| cmd+down | Copy Lines Down | Yes | 
-| cmd+up | Copy Lines Up | Yes | 
-| shift+cmd+d | Delete Lines | Yes | 
-| cmd+\\ | Toggle Sidebar Visibility | Yes | 
-| shift+cmd+s | Split Editor | Yes | 
-| shift+cmd+x | Close Active Editor | Yes | 
-| shift+cmd+left | Focus Left Editor | Yes | 
-| shift+cmd+right | Focus Right Editor | Yes | 
-| shift+cmd+b | Toggle Breakpoint | Yes | 
-| shift+cmd+space | Show Commands | Yes | 
-| cmd+r | Start Debugging | Yes | 
-| ctrl+down | Move Lines Down | Yes | 
-| ctrl+up | Move Lines Up | Yes | 
-| alt+down | Scroll Line Down | Yes | 
-| alt+up | Scroll Line Up | Yes | 
-| ctrl+k | Delete Lines | Yes | 
-| ctrl+shift+d | Copy Lines Down | Yes | 
-| ctrl+insert | Open Native Console | Yes | 
-| shift+insert | Terminal Paste | Yes | 
+You can see all the keyboard shortcuts in the extension's contribution list. 
 
-> Note: Windows and Linux keybindings have not been implemented. 
+![extension contributions](https://github.com/Microsoft/vscode-atom-keybindings/blob/master/contributions_list.png?raw=true)
+
+## How do I contribute a keyboard shortcut?
+
+We may have missed a keyboard shortcut. If we did please help us out! It is very easy to make a PR. 
+
+1. Head over to our [GitHub repository](https://github.com/Microsoft/vscode-atom-keybindings). 
+2. Open the [`package.json` file](https://github.com/Microsoft/vscode-atom-keybindings/blob/master/package.json). 
+3. Add a JSON object to [`contributions.keybindings`](https://github.com/Microsoft/vscode-atom-keybindings/blob/master/package.json#L25) as seen below. 
+4. Open a pull request. 
+
+```json
+{
+    "mac": "<keyboard shortcut for mac>",
+    "linux": "<keyboard shortcut for linux",
+    "win": "<keyboard shortcut for windows",
+    "key": "<default keyboard shortcut>",
+    "command": "<name of the command in VS Code"
+}
+```
+
+You can read more about how to contribute keybindings in extensions in the [official documentation](http://code.visualstudio.com/docs/extensionAPI/extension-points#_contributeskeybindings). 
+
+
+
+## License
+[MIT](license.txt)
