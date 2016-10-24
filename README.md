@@ -8,6 +8,18 @@ You can see all the keyboard shortcuts in the extension's contribution list.
 
 ![extension contributions](https://raw.githubusercontent.com/waderyan/vscode-atom-keybindings/master/contributions_list.png)
 
+## Why doesn't join lines or other Atom commands work? 
+
+This is because VS Code has not implemented this feature. Head on over to this [GitHub issue](https://github.com/Microsoft/vscode/issues/14316) and let the VS Code team know what you'd like to see. 
+
+Additionally, you can install an extension for many of these features:
+
+* [Join Lines](https://marketplace.visualstudio.com/items?itemName=wmaurer.join-lines)
+* [Paste and Indent](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)
+* [FontSize Shortcuts](https://marketplace.visualstudio.com/items?itemName=peterjuras.fontsize-shortcuts)
+* [change case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
+* [transpose](https://marketplace.visualstudio.com/items?itemName=v4run.transpose)
+
 ## How do I contribute a keyboard shortcut?
 
 We may have missed a keyboard shortcut. If we did please help us out! It is very easy to make a PR. 
