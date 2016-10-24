@@ -6,7 +6,7 @@ This extension ports popular Atom keyboard shortcuts to Visual Studio Code. Afte
 
 You can see all the keyboard shortcuts in the extension's contribution list. 
 
-![extension contributions](https://github.com/Microsoft/vscode-atom-keybindings/blob/master/contributions_list.png?raw=true)
+![extension contributions](https://raw.githubusercontent.com/waderyan/vscode-atom-keybindings/master/contributions_list.png)
 
 ## How do I contribute a keyboard shortcut?
 
