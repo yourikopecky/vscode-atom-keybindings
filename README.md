@@ -25,7 +25,7 @@ Additionally, you can install an extension for many of these features:
 We may have missed a keyboard shortcut. If we did please help us out! It is very easy to make a PR. 
 
 1. Head over to our [GitHub repository](https://github.com/waderyan/vscode-atom-keybindings). 
-2. Open the [`package.json` file](https://github.com/waderyan/vscode-atom-keybindings/blob/master/package.json). 
+2. Open [`package.json`](https://github.com/waderyan/vscode-atom-keybindings/blob/master/package.json). 
 3. Add a JSON object to [`contributions.keybindings`](https://github.com/waderyan/vscode-atom-keybindings/blob/master/package.json#L25) as seen below. 
 4. Open a pull request. 
 
