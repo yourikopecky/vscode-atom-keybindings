@@ -10,7 +10,7 @@ You can see all the keyboard shortcuts in the extension's contribution list.
 
 ## Why doesn't join lines or other Atom commands work? 
 
-This is because VS Code has not implemented this feature. Head on over to this [GitHub issue](https://github.com/Microsoft/vscode/issues/14316) and let the VS Code team know what you'd like to see. 
+This is because VS Code has not implemented this feature. Head on over to this [GitHub issue](https://github.com/waderyan/vscode/issues/14316) and let the VS Code team know what you'd like to see. 
 
 Additionally, you can install an extension for many of these features:
 
@@ -24,9 +24,9 @@ Additionally, you can install an extension for many of these features:
 
 We may have missed a keyboard shortcut. If we did please help us out! It is very easy to make a PR. 
 
-1. Head over to our [GitHub repository](https://github.com/Microsoft/vscode-atom-keybindings). 
-2. Open the [`package.json` file](https://github.com/Microsoft/vscode-atom-keybindings/blob/master/package.json). 
-3. Add a JSON object to [`contributions.keybindings`](https://github.com/Microsoft/vscode-atom-keybindings/blob/master/package.json#L25) as seen below. 
+1. Head over to our [GitHub repository](https://github.com/waderyan/vscode-atom-keybindings). 
+2. Open the [`package.json` file](https://github.com/waderyan/vscode-atom-keybindings/blob/master/package.json). 
+3. Add a JSON object to [`contributions.keybindings`](https://github.com/waderyan/vscode-atom-keybindings/blob/master/package.json#L25) as seen below. 
 4. Open a pull request. 
 
 ```json
@@ -40,8 +40,3 @@ We may have missed a keyboard shortcut. If we did please help us out! It is very
 ```
 
 You can read more about how to contribute keybindings in extensions in the [official documentation](http://code.visualstudio.com/docs/extensionAPI/extension-points#_contributeskeybindings). 
-
-
-
-## License
-[MIT](license.txt)
