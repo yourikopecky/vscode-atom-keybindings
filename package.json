@@ -2,7 +2,7 @@
     "name": "atom-keybindings",
     "displayName": "Atom Keymap",
     "description": "Popular Atom keybindings for Visual Studio Code",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "publisher": "ms-vscode",
     "engines": {
         "vscode": "^1.6.0"
@@ -265,14 +265,14 @@
                 "when": "editorTextFocus"
             },
             {
-                "mac": "cmd+shift+{",
+                // "mac": "cmd+shift+{", // { is an invalid keybinding
                 "win": "ctrl+pagedown",
                 "linux": "ctrl+pagedown",
                 "key": "ctrl+pagedown",
                 "command": "workbench.action.nextEditor"
             },
             {
-                "mac": "cmd+shift+}",
+                // "mac": "cmd+shift+}", // } is an invalid keybinding
                 "win": "ctrl+pageup",
                 "linux": "ctrl+pageup",
                 "key": "ctrl+pageup",
@@ -286,13 +286,14 @@
                 "command": "editor.action.selectHighlights",
                 "when": "editorFocus"
             },
-            {
-                "mac": "cmd++",
-                "win": "ctrl++",
-                "linux": "ctrl++",
-                "key": "ctrl++",
-                "command": "workbench.action.zoomIn"
-            },
+            // { 
+            //     "mac": "cmd++",
+            //     "win": "ctrl++",
+            //     "linux": "ctrl++",
+            //     "key": "ctrl++",
+            //     "command": "workbench.action.zoomIn"
+            // },
+            // + is not a valid key for VS Code keybindings
             {
                 "mac": "cmd+-",
                 "win": "ctrl+-",
@@ -367,12 +368,14 @@
                 "mac": "cmd+shift+\\",
                 "win": "ctrl+shift+\\",
                 "linux": "ctrl+shift+\\",
+                "key": "ctrl+shift+\\",
                 "command": "workbench.files.action.showActiveFileInExplorer"
             },
             {
                 "mac": "ctrl+shift+c",
                 "win": "ctrl+shift+c",
                 "linux": "ctrl+shift+c",
+                "key": "ctrl+shift+c",
                 "command": "workbench.action.files.copyPathOfActiveFile"
             }
         ]
