@@ -285,6 +285,14 @@
                 "when": "editorFocus"
             },
             {
+                "mac": "cmd+shift+l",
+                "linux": "alt+shift+l",
+                "win": "alt+shift+l",
+                "key": "alt+shift+l",
+                "command": "editor.action.insertCursorAtEndOfEachLineSelected",
+                "when": "editorTextFocus && editorHasSelection"
+            },
+            {
                 "mac": "cmd+-",
                 "win": "ctrl+-",
                 "linux": "ctrl+-",
