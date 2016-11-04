@@ -411,6 +411,13 @@
                 "linux": "ctrl+,",
                 "key": "ctrl+,",
                 "command": "workbench.action.openGlobalSettings"
+            },
+            {
+                "mac": "cmd+b",
+                "win": "ctrl+b",
+                "linux": "ctrl+b",
+                "key": "ctrl+b",
+                "command": "workbench.action.showAllEditors"
             }
         ]
     },
