@@ -70,9 +70,15 @@
                 "command": "workbench.action.splitEditor"
             },
             {
+                "mac": "cmd+t",
                 "win": "ctrl+t",
                 "key": "ctrl+p",
                 "command": "workbench.action.quickOpen"
+            },
+            {
+                "mac": "ctrl-alt-b",
+                "key": "shift-alt-f",
+                "command": "editor.action.formatDocument"
             },
             {
                 "mac": "cmd+b",
@@ -193,7 +199,7 @@
                 "command": "workbench.action.gotoSymbol"
             },
             {
-                "mac": "ctrl+cmd+[",
+                "mac": "alt+cmd+[",
                 "win": "ctrl+alt+/",
                 "linux": "ctrl+alt+/",
                 "key": "ctrl+alt+/",
@@ -201,7 +207,7 @@
                 "when": "editorTextFocus"
             },
             {
-                "mac": "ctrl+cmd+]",
+                "mac": "alt+cmd+]",
                 "win": "ctrl+alt+/",
                 "linux": "ctrl+alt+/",
                 "key": "ctrl+alt+/",
@@ -217,12 +223,34 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "cmd+shift+7",
+                "key": "cmd+k cmd+c",
+                "command": "editor.action.commentLine",
+                "when": "editorTextFocus"
+            },
+            {
                 "mac": "alt+shift+cmd+]",
                 "win": "ctrl+alt+]",
                 "linux": "ctrl+alt+]",
                 "key": "ctrl+alt+]",
                 "command": "editor.unfoldAll",
                 "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+k cmd-0",
+                "key": "ctrl+alt+]",
+                "command": "editor.unfoldAll",
+                "when": "editorTextFocus"
+            },
+            {
+                "mac": "cmd+-",
+                "key": "ctrl+=",
+                "command": "workbench.action.zoomIn"
+            },
+            {
+                "mac": "cmd+/",
+                "key": "ctrl+-",
+                "command": "workbench.action.zoomOut"
             },
             {
                 "mac": "cmd+k cmd+1",
@@ -361,9 +389,9 @@
                 "linux": "alt+9",
                 "key": "alt+9",
                 "command": "workbench.action.openEditorAtIndex9"
-            }, 
+            },
             {
-                "mac": "cmd+shift+\\",
+                "mac": "alt+cmd+\\",
                 "win": "ctrl+shift+\\",
                 "linux": "ctrl+shift+\\",
                 "key": "ctrl+shift+\\",
