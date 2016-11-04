@@ -404,6 +404,13 @@
                 "linux": "ctrl+shift+c",
                 "key": "ctrl+shift+c",
                 "command": "workbench.action.files.copyPathOfActiveFile"
+            },
+            {
+                "mac": "cmd+,",
+                "win": "ctrl+,",
+                "linux": "ctrl+,",
+                "key": "ctrl+,",
+                "command": "workbench.action.openGlobalSettings"
             }
         ]
     },
