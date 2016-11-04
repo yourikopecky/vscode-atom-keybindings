@@ -224,6 +224,14 @@
                 "when": "editorTextFocus"
             },
             {
+                "mac": "alt+shift+cmd+]",
+                "win": "ctrl+alt+]",
+                "linux": "ctrl+alt+]",
+                "key": "ctrl+alt+]",
+                "command": "editor.unfoldAll",
+                "when": "editorTextFocus"
+            },
+            {
                 "mac": "cmd+shift+7",
                 "key": "cmd+k cmd+c",
                 "command": "editor.action.commentLine",
