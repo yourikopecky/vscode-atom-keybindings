@@ -2,7 +2,7 @@
     "name": "atom-keybindings",
     "displayName": "Atom Keymap",
     "description": "Popular Atom keybindings for Visual Studio Code",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "publisher": "ms-vscode",
     "engines": {
         "vscode": "^1.6.0"
@@ -252,12 +252,12 @@
                 "when": "editorTextFocus"
             },
             {
-                "mac": "cmd+-",
+                "mac": "cmd+=",
                 "key": "ctrl+=",
                 "command": "workbench.action.zoomIn"
             },
             {
-                "mac": "cmd++",
+                "mac": "cmd+-",
                 "key": "ctrl+-",
                 "command": "workbench.action.zoomOut"
             },
