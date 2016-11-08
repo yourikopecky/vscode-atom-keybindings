@@ -257,7 +257,7 @@
                 "command": "workbench.action.zoomIn"
             },
             {
-                "mac": "cmd+/",
+                "mac": "cmd++",
                 "key": "ctrl+-",
                 "command": "workbench.action.zoomOut"
             },
