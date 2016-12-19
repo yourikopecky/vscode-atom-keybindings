@@ -10,7 +10,7 @@ You can see all the keyboard shortcuts in the extension's contribution list.
 
 ## Why doesn't join lines or other Atom commands work? 
 
-This is because VS Code has not implemented this feature. Head on over to this [GitHub issue](https://github.com/waderyan/vscode/issues/14316) and let the VS Code team know what you'd like to see. 
+This is because VS Code has not implemented this feature. Head on over to this [GitHub issue](https://github.com/microsoft/vscode/issues/14316) and let the VS Code team know what you'd like to see. 
 
 Additionally, you can install an extension for many of these features:
 
