@@ -2,7 +2,7 @@
     "name": "atom-keybindings",
     "displayName": "Atom Keymap",
     "description": "Popular Atom keybindings for Visual Studio Code",
-    "version": "1.8.6",
+    "version": "1.9.0",
     "publisher": "ms-vscode",
     "engines": {
         "vscode": "^1.6.0"
@@ -18,6 +18,13 @@
     "icon": "atom-keyboard.svg",
     "contributes": {
         "keybindings": [
+            {
+                "mac": "cmd+shift+ctrl+f",
+                "win": "shift+f11",
+                "linux": "shift+f11",
+                "key": "shift+f11",
+                "command": "workbench.action.toggleZenMode"
+            },
             {
                 "mac": "ctrl+cmd+down",
                 "win": "ctrl+down",
