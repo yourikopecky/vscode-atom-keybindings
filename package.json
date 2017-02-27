@@ -19,6 +19,78 @@
     "contributes": {
         "keybindings": [
             {
+                "mac": "a",
+                "win": "a",
+                "linux": "a",
+                "key": "a",
+                "when": "filesExplorerFocus",
+                "command": "explorer.newFile"
+            },
+            {
+                "mac": "shift+a",
+                "win": "shift+a",
+                "linux": "shift+a",
+                "key": "shift+a",
+                "when": "filesExplorerFocus",
+                "command": "explorer.newFolder"
+            },
+            {
+                "mac": "cmd+1",
+                "win": "ctrl+1",
+                "linux": "ctrl+1",
+                "key": "ctrl+1",
+                "when": "filesExplorerFocus",
+                "command": "explorer.openToSide"
+            },
+            {
+                "mac": "backspace",
+                "win": "backspace",
+                "linux": "backspace",
+                "key": "backspace",
+                "when": "filesExplorerFocus",
+                "command": "moveFileToTrash"
+            },
+            {
+                "mac": "cmd+c",
+                "win": "ctrl+c",
+                "linux": "ctrl+c",
+                "key": "ctrl+c",
+                "when": "filesExplorerFocus",
+                "command": "filesExplorer.copy"
+            },
+            {
+                "mac": "h",
+                "win": "h",
+                "linux": "h",
+                "key": "h",
+                "when": "filesExplorerFocus",
+                "command": "list.collapse"
+            },
+            {
+                "mac": "l",
+                "win": "l",
+                "linux": "l",
+                "key": "l",
+                "when": "filesExplorerFocus",
+                "command": "list.expand"
+            },
+            {
+                "mac": "j",
+                "win": "j",
+                "linux": "j",
+                "key": "j",
+                "when": "filesExplorerFocus",
+                "command": "list.focusDown"
+            },
+            {
+                "mac": "k",
+                "win": "k",
+                "linux": "k",
+                "key": "k",
+                "when": "filesExplorerFocus",
+                "command": "list.focusUp"
+            },
+            {
                 "mac": "cmd+shift+ctrl+f",
                 "win": "shift+f11",
                 "linux": "shift+f11",
