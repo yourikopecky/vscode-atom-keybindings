@@ -15,7 +15,7 @@
         "keymap"
     ],
     "preview": true,
-    "icon": "atom-keyboard.svg",
+    "icon": "atom-keyboard.png",
     "activationEvents": [
         "*"
     ],
