@@ -141,6 +141,7 @@
                 "command": "workbench.action.toggleSidebarVisibility"
             },
             {
+                "mac": "cmd+\\",
                 "win": "ctrl+\\",
                 "linux": "ctrl+\\",
                 "key": "ctrl+\\",
