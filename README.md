@@ -2,26 +2,6 @@
 
 This extension ports popular Atom keyboard shortcuts to Visual Studio Code. After installing the extension and restarting VS Code your favorite keyboard shortcuts from Atom are now available. 
 
-## Changes Introduced in Version 3.0
-
-- Multi cursor editing changed from <kbd>alt</kbd> + click to <kbd>ctrl</kbd> (or <kbd>cmd</kbd>) + click. 
-- Enable format on paste. 
-
-All of these features make VS Code more "Atom like." The changes to your User Settings file are as followed. 
-
-```javascript
-// Controls whether the prompt will show
-"atomKeymap.promptV3Features": true,
-
-// Changes the multi cursor mouse binding
-"editor.multiCursorModifier": "ctrlCmd",
-
-// Controls whether format on paste is on or off
-"editor.formatOnPaste": true
-```
-
->**Tip:** If you want to see the prompt again simply change `atomKeymap.promptV3Features` to `false` and restart VS Code. 
-
 ## Why doesn't join lines or other Atom commands work? 
 
 This is because VS Code has not implemented this feature. Head on over to this [GitHub issue](https://github.com/microsoft/vscode/issues/14316) and let the VS Code team know what you'd like to see. 
