@@ -15,7 +15,7 @@
         "keymap"
     ],
     "preview": true,
-    "icon": "atom-keyboard.png",
+    "icon": "atom-keyboard-padded.png",
     "activationEvents": [
         "*"
     ],
@@ -543,10 +543,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/waderyan/vscode-atom-keybindings.git"
+        "url": "https://github.com/Microsoft/vscode-atom-keybindings.git"
     },
     "bugs": {
-        "url": "https://github.com/waderyan/vscode-atom-keybindings/issues",
-        "email": "wade.anderson@microsoft.com"
+        "url": "https://github.com/Microsoft/vscode-atom-keybindings/issues"
     }
 }
