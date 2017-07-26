@@ -126,3 +126,4 @@ You can read more about how to contribute keybindings in extensions in the [offi
 | workbench.action.openGlobalSettings | cmd+, | ctrl+, | ctrl+, |
 | workbench.action.showAllEditors | cmd+b | ctrl+b | ctrl+b |
 | workbench.action.toggleZenMode | cmd+ctrl+shift+f | shift+f11 | shift+f11 |
+| redo | cmd+y | ctrl+y | ctrl+y |
