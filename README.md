@@ -22,9 +22,9 @@ All of these features make VS Code more "Atom like." The changes to your User Se
 
 >**Tip:** If you want to see the prompt again simply change `atomKeymap.promptV3Features` to `false` and restart VS Code. 
 
-## Why doesn't join lines or other Atom commands work? 
+## Why doesn't some Atom commands work? 
 
-This is because VS Code has not implemented this feature. Head on over to this [GitHub issue](https://github.com/microsoft/vscode/issues/14316) and let the VS Code team know what you'd like to see. 
+This is because VS Code has not implemented those features. Head on over to this [GitHub issue](https://github.com/microsoft/vscode/issues/14316) and let the VS Code team know what you'd like to see. 
 
 Additionally, you can install an extension for many of these features:
 
@@ -127,3 +127,4 @@ You can read more about how to contribute keybindings in extensions in the [offi
 | workbench.action.showAllEditors | cmd+b | ctrl+b | ctrl+b |
 | workbench.action.toggleZenMode | cmd+ctrl+shift+f | shift+f11 | shift+f11 |
 | redo | cmd+y | ctrl+y | ctrl+y |
+| editor.action.joinLines | cmd+j | ctrl+j | ctrl+j |
