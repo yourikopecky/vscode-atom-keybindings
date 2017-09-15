@@ -1,3 +1,6 @@
+## 3.0.2
+- Added support for join lines keyboard shortcut in #39 
+
 ## 3.0.1
 - Map `cmd+y`, `ctrl+y` to redo (thank you @ianaya89!)
 - Readme.md fix (thank you @glingy!)
