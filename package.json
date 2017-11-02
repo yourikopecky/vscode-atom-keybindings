@@ -531,6 +531,13 @@
                 "win": "ctrl+j",
                 "key": "ctrl+j",
                 "command": "editor.action.joinLines"
+            },
+            {
+                "mac": "cmd+p",
+                "win": "ctrl+p",
+                "linux": "ctrl+p",
+                "key": "ctrl+p",
+                "command": "workbench.action.quickOpenPreviousEditor"
             }
         ],
         "configuration": {
