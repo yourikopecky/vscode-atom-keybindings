@@ -35,7 +35,7 @@
                 "win": "shift+a",
                 "linux": "shift+a",
                 "key": "shift+a",
-                "when": "filesExplorerFocus",
+                "when": "filesExplorerFocus && !inputFocus",
                 "command": "explorer.newFolder"
             },
             {
@@ -43,7 +43,7 @@
                 "win": "ctrl+1",
                 "linux": "ctrl+1",
                 "key": "ctrl+1",
-                "when": "filesExplorerFocus",
+                "when": "filesExplorerFocus && !inputFocus",
                 "command": "explorer.openToSide"
             },
             {
@@ -51,7 +51,7 @@
                 "win": "backspace",
                 "linux": "backspace",
                 "key": "backspace",
-                "when": "filesExplorerFocus",
+                "when": "filesExplorerFocus && !inputFocus",
                 "command": "moveFileToTrash"
             },
             {
@@ -59,7 +59,7 @@
                 "win": "ctrl+c",
                 "linux": "ctrl+c",
                 "key": "ctrl+c",
-                "when": "filesExplorerFocus",
+                "when": "filesExplorerFocus && !inputFocus",
                 "command": "filesExplorer.copy"
             },
             {
