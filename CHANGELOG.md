@@ -1,3 +1,6 @@
+## 3.0.3
+- Fix overrriden shortcuts for file explorer. #40s
+
 ## 3.0.2
 - Added support for join lines keyboard shortcut in #39 
 
