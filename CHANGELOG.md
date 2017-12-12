@@ -1,3 +1,6 @@
+## 3.0.4
+- More fixes for file explorer.
+
 ## 3.0.3
 - Fix overrriden shortcuts for file explorer. #40s
 
