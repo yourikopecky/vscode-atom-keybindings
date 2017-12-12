@@ -27,7 +27,7 @@
                 "win": "a",
                 "linux": "a",
                 "key": "a",
-                "when": "filesExplorerFocus",
+                "when": "filesExplorerFocus && !inputFocus",
                 "command": "explorer.newFile"
             },
             {
@@ -67,7 +67,7 @@
                 "win": "h",
                 "linux": "h",
                 "key": "h",
-                "when": "filesExplorerFocus",
+                "when": "filesExplorerFocus && !inputFocus",
                 "command": "list.collapse"
             },
             {
@@ -75,7 +75,7 @@
                 "win": "l",
                 "linux": "l",
                 "key": "l",
-                "when": "filesExplorerFocus",
+                "when": "filesExplorerFocus && !inputFocus",
                 "command": "list.expand"
             },
             {
@@ -83,7 +83,7 @@
                 "win": "j",
                 "linux": "j",
                 "key": "j",
-                "when": "filesExplorerFocus",
+                "when": "filesExplorerFocus && !inputFocus",
                 "command": "list.focusDown"
             },
             {
@@ -91,7 +91,7 @@
                 "win": "k",
                 "linux": "k",
                 "key": "k",
-                "when": "filesExplorerFocus",
+                "when": "filesExplorerFocus && !inputFocus",
                 "command": "list.focusUp"
             },
             {
