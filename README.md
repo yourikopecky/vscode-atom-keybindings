@@ -22,7 +22,7 @@ All of these features make VS Code more "Atom like." The changes to your User Se
 
 >**Tip:** If you want to see the prompt again simply change `atomKeymap.promptV3Features` to `false` and restart VS Code. 
 
-## Why doesn't some Atom commands work? 
+## Why don't some Atom commands work? 
 
 This is because VS Code has not implemented those features. Head on over to this [GitHub issue](https://github.com/microsoft/vscode/issues/14316) and let the VS Code team know what you'd like to see. 
 
