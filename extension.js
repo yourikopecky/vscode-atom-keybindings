@@ -35,6 +35,10 @@ function isDefaultValueSet(editorConfig, settings) {
     return false;
 }
 
+function disableListAutomaticKeyboardNavigation() {
+    vscode.commands.executeCommand('setContext', 'listAutomaticKeyboardNavigation', false);
+}
+
 class VersionThreeUpdateSetting {
     constructor() {
         this.name = 'promptV3Features';
@@ -83,6 +87,8 @@ class View {
 }
 
 const activate = () => {
+    disableListAutomaticKeyboardNavigation();
+
     const editorConfig = vscode.workspace.getConfiguration('editor');
     const updateSetting = new VersionThreeUpdateSetting();
 
